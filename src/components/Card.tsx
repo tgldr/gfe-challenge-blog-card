@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import React from "react";
 import Tag from "./Tag";
@@ -35,7 +36,7 @@ export default function Card({
                 </div>
                 <div className="flex flex-wrap gap-[24px]">
                     <p className="block font-medium text-md text-neutral-600">{description}</p>
-                    <Button icon={<RightArrow />}>Read more</Button>
+                    <Button onClick={() => alert('clicked')} icon={<RightArrow />}>Read more</Button>
                 </div>
             </div>
         </div >
