@@ -6,7 +6,7 @@ export default function Tag({
     text: React.ReactNode;
 }>) {
     return (
-        <span className="px-[8px] py-[2px] text-sm text-green-700 bg-green-50 rounded-full border-[1px] border-green-200">
+        <span className="px-[8px] py-[1px] text-sm text-green-700 bg-green-50 rounded-full border-[1px] border-green-200">
             {text}
         </span>
     );

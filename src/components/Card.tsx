@@ -32,7 +32,7 @@ export default function Card({
                             <Tag key={tag} text={tag} />
                         ))}
                     </div>
-                    <h2 className="text-lg font-bold text-neutral-900">{title}</h2>
+                    <h2 className="text-lg font-semibold text-neutral-900">{title}</h2>
                 </div>
                 <div className="flex flex-wrap gap-[24px]">
                     <p className="block font-medium text-md text-neutral-600">{description}</p>
